@@ -122,9 +122,6 @@
     "node": "13.13.0",
     "yarn": "1.22.4"
   },
-  "resolutions": {
-    "node-fetch": "^2.6.1"
-  },
   "scripts": {
     "postinstall": "./webpack_if_prod.sh",
     "lint": "node ./node_modules/eslint/bin/eslint.js ./static/js",
